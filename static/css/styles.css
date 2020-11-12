@@ -8,28 +8,43 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Elegant';
+    src: url("Elegant.otf") format('opentype');
+    src: url("Elegant.ttf")format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 
 body {
     font-family: 'existencelight', Fallback, sans-serif;
     /* background-color: #cfe5e5;*/
     background-color: #FFF1D8;
-    margin: 0 auto;
+    margin: 1rem auto;
     height: 96vh;
+    font-size: 100%;
 }
 
 #title_name{
     text-align: right;
     font-size: 10vw;
     margin-block-end: inherit;
-    background: #1b1e21;
+    background: #6f7780;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     /*background: -webkit-linear-gradient(right, white, whitesmoke, #6d6d6d, black);*/
 
 }
+
+#title_name:hover{
+    background: darkred;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .menubutton{
-    color: black;
+    color: #6f7780;
     border: none;
     background-color: initial;}
 
@@ -39,24 +54,35 @@ body {
 }
 
 #aboutBryan{
-    font-size: inherit;
+    font-family: "Elegant";
+    font-size: 1.2vw;
+    text-align: center;
+    color: #676e77;
 }
 
 #subtitle{
-    font-size: 1.25rem;
-    color:#555;
+    font-size: 1.8vw;
+    color:#6f7780;
     text-align: right;
-    margin-top: -2rem;
+    margin-top: 0rem;
+}
+
+#main_text{
+    height: 50vh;
 }
 
 .rsrchQ{
-    font-style: italic;
-    font-size: 1.5rem;
+    font-family: Elegant;
+    font-style: normal;
+    font-size: x-large;
     text-align: center;
+    color: #4f555b;
 }
 .rsrchBlurb{
-    text-align: justify;
-    text-indent: 2rem;
+    color:#6f7780;
+    font-size: large;
+    font-family: Elegant;
+    text-align: center;
 }
 
 .soc {
