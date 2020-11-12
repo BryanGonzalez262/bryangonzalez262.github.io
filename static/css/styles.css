@@ -20,7 +20,7 @@ body {
 
 #title_name{
     text-align: right;
-    font-size: 6rem;
+    font-size: 10vw;
     margin-block-end: inherit;
     background: #1b1e21;
     -webkit-background-clip: text;
