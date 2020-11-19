@@ -16,6 +16,12 @@
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'Adequate-ExtraLight';
+    src: url("Adequate-ExtraLight.ttf")format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 body {
@@ -54,10 +60,10 @@ body {
 }
 
 #aboutBryan{
-    font-family: "Elegant";
-    font-size: 1.2vw;
+    font-family: "Adequate-ExtraLight";
+    font-size: 1.8vh;
     text-align: center;
-    color: #676e77;
+    color: #080809;
 }
 
 #subtitle{
@@ -72,16 +78,16 @@ body {
 }
 
 .rsrchQ{
-    font-family: Elegant;
-    font-style: normal;
+    font-family: "Adequate-ExtraLight";
+    font-style: italic;
     font-size: x-large;
     text-align: center;
     color: #4f555b;
 }
 .rsrchBlurb{
     color:#6f7780;
-    font-size: large;
-    font-family: Elegant;
+    font-size: medium;
+    font-family: "Adequate-ExtraLight";
     text-align: center;
 }
 
